@@ -28,6 +28,6 @@ def selective_tweet_shortener (tweets)
     tweets[0...140]
   elsif
     tweet.size < 130
-    tweet
+    puts tweet
   end
 end
